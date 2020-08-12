@@ -3,7 +3,7 @@
 Este software implementa a aplicação que armazena e processa dos dados transmitidos através dos leitores de dados. 
 
 ## Instância em produção
-Você pode acessar a istância deste projeto 
+Você pode acessar uma instância deste projeto em https://pdcna.herokuapp.com/
 
 ## Como instalar
 
