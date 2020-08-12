@@ -45,7 +45,7 @@ Depois que baixar o repositório, faça o seguinte para instalar o ambiente na s
 ```http
 PUT /dados/participante HTTP/1.1
 Content-Type: application/json
-Host: 127.0.0.1:8000
+Host: https://pdcna.herokuapp.com
 
 {
 	"nome":"nome",
@@ -56,7 +56,7 @@ Host: 127.0.0.1:8000
 - Pegar todos os registros da base de dados
 ```http
 GET /dados/participante HTTP/1.1
-Host: 127.0.0.1:8000
+Host: https://pdcna.herokuapp.com
 ```
 
 ### Levantamento
@@ -65,7 +65,7 @@ Host: 127.0.0.1:8000
 ```http
 PUT /dados/levantamento HTTP/1.1
 Content-Type: application/json
-Host: 127.0.0.1:8000
+Host: https://pdcna.herokuapp.com
 
 {
 	"data":"YYYY-MM-DD",
@@ -76,7 +76,7 @@ Host: 127.0.0.1:8000
 - Pegar todos os registros da base de dados
 ```http
 GET /dados/levantamento HTTP/1.1
-Host: 127.0.0.1:8000
+Host: https://pdcna.herokuapp.com
 ```
 
 ### Levantamento_dados
@@ -85,7 +85,7 @@ Host: 127.0.0.1:8000
 ```http
 PUT /dados/levantamento_dados HTTP/1.1
 Content-Type: application/json
-Host: 127.0.0.1:8000
+Host: https://pdcna.herokuapp.com
 
 {
 	"levantamento":1,
@@ -97,5 +97,5 @@ Host: 127.0.0.1:8000
 - Pegar todos os registros da base de dados
 ```http
 GET /dados/levantamento_dados HTTP/1.1
-Host: 127.0.0.1:8000
+Host: https://pdcna.herokuapp.com
 ```
