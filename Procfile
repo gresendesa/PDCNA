@@ -1,0 +1,1 @@
+web: python pdcna/manage.py migrate && cd pdcna/ && gunicorn pdcna.wsgi --log-file -
