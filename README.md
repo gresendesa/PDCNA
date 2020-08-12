@@ -55,7 +55,7 @@ Content-Length: 51
 ```
 
 - Pegar todos os registros da base de dados
-```
+```http
 GET /dados/participante HTTP/1.1
 Host: 127.0.0.1:8000
 ```
@@ -76,7 +76,7 @@ Content-Length: 45
 ```
 
 - Pegar todos os registros da base de dados
-```
+```http
 GET /dados/levantamento HTTP/1.1
 Host: 127.0.0.1:8000
 ```
