@@ -34,3 +34,5 @@ class Levantamento_dados(models.Model):
 	)
 	def __str__(self):
 		return f'{self.levantamento} {self.variavel} #{self.valor}'
+	class Meta:
+		verbose_name_plural = 'Levantamento Dados'
