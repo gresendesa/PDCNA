@@ -41,7 +41,7 @@ Depois que baixar o repositório, faça o seguinte para instalar o ambiente na s
 
 ### Participante
 
-
+- Inserir um registro na base de dados
 ```http
 PUT /dados/participante HTTP/1.1
 Content-Type: application/json
@@ -54,7 +54,7 @@ Content-Length: 51
 }	
 ```
 
-Pegar todos os registros da base de dados
+- Pegar todos os registros da base de dados
 ```
 GET /dados/participante HTTP/1.1
 Host: 127.0.0.1:8000
@@ -62,7 +62,7 @@ Host: 127.0.0.1:8000
 
 ### Levantamento
 
-`PUT` `/dados/levantamento` isso cria um novo registro e requer um json como a seguir:
+- Inserir um registro na base de dados
 ```http
 PUT /dados/levantamento HTTP/1.1
 Content-Type: application/json
@@ -75,7 +75,7 @@ Content-Length: 45
 }	
 ```
 
-Pegar todos os registros da base de dados
+- Pegar todos os registros da base de dados
 ```
 GET /dados/levantamento HTTP/1.1
 Host: 127.0.0.1:8000
@@ -83,7 +83,7 @@ Host: 127.0.0.1:8000
 
 ### Levantamento_dados
 
-Inserir um registro na base de dados
+- Inserir um registro na base de dados
 ```http
 PUT /dados/levantamento_dados HTTP/1.1
 Content-Type: application/json
@@ -97,7 +97,7 @@ Content-Length: 65
 }	
 ```
 
-Pegar todos os registros da base de dados
+- Pegar todos os registros da base de dados
 ```http
 GET /dados/levantamento_dados HTTP/1.1
 Host: 127.0.0.1:8000
