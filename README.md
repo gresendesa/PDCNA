@@ -46,7 +46,6 @@ Depois que baixar o repositório, faça o seguinte para instalar o ambiente na s
 PUT /dados/participante HTTP/1.1
 Content-Type: application/json
 Host: 127.0.0.1:8000
-Content-Length: 51
 
 {
 	"nome":"nome",
@@ -67,7 +66,6 @@ Host: 127.0.0.1:8000
 PUT /dados/levantamento HTTP/1.1
 Content-Type: application/json
 Host: 127.0.0.1:8000
-Content-Length: 45
 
 {
 	"data":"YYYY-MM-DD",
@@ -88,7 +86,6 @@ Host: 127.0.0.1:8000
 PUT /dados/levantamento_dados HTTP/1.1
 Content-Type: application/json
 Host: 127.0.0.1:8000
-Content-Length: 65
 
 {
 	"levantamento":1,
