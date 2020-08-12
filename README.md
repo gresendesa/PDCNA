@@ -1,4 +1,4 @@
-# CPDCNA - Programa de Detecção de Crise Nervosa Autista
+# PDCNA - Programa de Detecção de Crise Nervosa Autista
 
 Este software implementa a aplicação que armazena e processa dos dados transmitidos através dos leitores de dados. 
 
